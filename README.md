@@ -18,16 +18,34 @@
 
 **Quais as principais funcionalidades:**
   Que serão desenvolvidas:
+  
     - filtro por regiões
         * O usuário poderá selecionar um numero X de cidades de algum estado para buscar academias cadastradas
+        
     - Contratação de planos
         * Ofertar os planos oferecidos pelas academias
         - planos periódicos de acesso à equipamentos de ginástica (definidos pela academia)
-    - Aulas (ex)
+        
+    - Aulas
+        * Será possível a contratação de aulas, que podem variar de acordo com o serviço disponibilizado pelas academias, dentre eles: 
+            - Dança
+            - Atividades Aeróbicas
+            - Ioga
+            - Musculação
+            - Natação
+            - Artes Marciais
+            
     - Contratação de horas
+        * O contrato de horas, é funcional para pessoas que estão apenas visitando tal região/cidade e deseja praticar alguma atividade física sem um compromisso semanal ou mensal. Desta forma, terá acesso somente as horas requeridas para a prática.
+        
     - Comércio produtos em geral (se a academia disponibilizar)
+        * O usuário poderá realizar a compra de produtos como roupas, suplementos, acessórios, entre outros produtos. Estes deverão estar disponíveis na própria academia.
+        
     - Fique por dentro (Blog)
-    - Academias pareceiras
+        * O usuário poderá ficar por dentro de atualizações e postagens efetuadas em redes sociais da academia.
+        
+    - Academias parceiras
+        *
     - compra/pagamento
     - Sistema de cadastramento
     - Validação 
