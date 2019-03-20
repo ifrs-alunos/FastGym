@@ -7,6 +7,7 @@
   Desta forma, esperamos proporcionar maior acesso à saúde de qualidade e bem-estar a nossos usuários.
 
 **Quem desenvolveu:**
+
   Eduardo Chedid Padilha Ribeiro:
     - Eduardo é discente do curso Técnico em Multimídia Integrado ao Ensino Médio do Instituto Federal do Rio Grande do Sul -   Campus Vacaria. 
     - Possui experiência com as as linguagens de programação Python3, JavaScript e PHP7 e suas aplicações no desenvolvimento de aplicações WEB, auxiliando no desenvolvimento do website da Semana Acadêmica do IFRS - Campus Vacaria (http://semac.vacaria.ifrs.edu.br/). Também possui experiência com a linguagem de programação Java, para o desenvolvimento Android, e com as linguages de marcação e folhas de estilo HTML e CSS, respectivamente.
@@ -47,9 +48,16 @@
     - Academias parceiras
         *
     - compra/pagamento
+        * A compra de planos e/ou produtos feita através do site ReachableGym, terá seu pagamento efetuado a partir da geração de boletos bancários e cartões de crédito.
+        
     - Sistema de cadastramento
-    - Validação 
+        * Todo o sistema de compra e utilização dos produtos que a página oferece, será realizado a partir de um cadastro do usuário. Garantindo a segurança, validade e confiabilidade, de quem utiliza e disponibiliza os produtos.
+        
+    - Validação
+        * A validação dos dados inseridos, garantem a eficiência do serviço. Facilitando a verificação de compras verídicas e a segurança do serviço disponível.
+        
     - ficha técnica com rotina de treinamento.
+        * O usuário dispõe de uma ficha técnica, onde terá uma rotina de treinamento específico, baseada no objetivo que o praticante busca alcançar na aula de academia.
     
   
   Que estão desenvolvidas:
