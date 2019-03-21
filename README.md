@@ -8,14 +8,9 @@
 
 **Quem desenvolveu:**
 
-  Eduardo Chedid Padilha Ribeiro:
-    - Eduardo é discente do curso Técnico em Multimídia Integrado ao Ensino Médio do Instituto Federal do Rio Grande do Sul -   Campus Vacaria. 
-    - Possui experiência com as as linguagens de programação Python3, JavaScript e PHP7 e suas aplicações no desenvolvimento de aplicações WEB, auxiliando no desenvolvimento do website da Semana Acadêmica do IFRS - Campus Vacaria (http://semac.vacaria.ifrs.edu.br/). Também possui experiência com a linguagem de programação Java, para o desenvolvimento Android, e com as linguages de marcação e folhas de estilo HTML e CSS, respectivamente.
-    - Participou dos projetos Reasoning And Programming, do IFRS, como bolsista. Ministrando aulas de lógica de programação até aulas de Python3 estruturado e desenvolvendo aplicações para o campus, como o website SEMAC, a aplicação Android CSIF e a aplicação Androi IFApp.
-    - Atualmente trabalha na empresa de desenvolvimento WEB Six Interfaces (https://www.6i.com.br/), em Vacaria.
+  Eduardo Chedid Padilha Ribeiro: Eduardo é discente do curso Técnico em Multimídia Integrado ao Ensino Médio do Instituto Federal do Rio Grande do Sul -   Campus Vacaria. Possui experiência com as as linguagens de programação Python3, JavaScript e PHP7 e suas aplicações no desenvolvimento de aplicações WEB, auxiliando no desenvolvimento do website da Semana Acadêmica do IFRS - Campus Vacaria (http://semac.vacaria.ifrs.edu.br/). Também possui experiência com a linguagem de programação Java, para o desenvolvimento Android, e com as linguages de marcação e folhas de estilo HTML e CSS, respectivamente. Eduardo participou dos projetos Reasoning And Programming, do IFRS, como bolsista. Ministrando aulas de lógica de programação até aulas de Python3 estruturado e desenvolvendo aplicações para o campus, como o website SEMAC, a aplicação Android CSIF e a aplicação Androi IFApp.Atualmente trabalha na empresa de desenvolvimento WEB Six Interfaces (https://www.6i.com.br/), em Vacaria.
   
-  Willian Rangel Fernandes Leite:
-    -Concluiu o ensino fundamental na Escola M. E. F. General Osório, no ano de 2016. Possui curso de Informática Básica e Digitação. Iniciou estudo como discente no curso Técnico em Multimídia Integrado ao Ensino Médio, IFRS Campus Vacaria, no ano de 2017. Possui experiência no desenvolvimento de algoritmos com as Linguagens Python 3 e Lua, Desenvolvimento de Aplicações Web com Linguagens HTML, CSS, JS e Frameworks. Participou do projeto Reasoning And Programming no ano de 2017.
+  Willian Rangel Fernandes Leite: Concluiu o ensino fundamental na Escola M. E. F. General Osório, no ano de 2016. Possui curso de Informática Básica e Digitação. Iniciou estudo como discente no curso Técnico em Multimídia Integrado ao Ensino Médio, IFRS Campus Vacaria, no ano de 2017. Possui experiência no desenvolvimento de algoritmos com as Linguagens Python 3 e Lua, Desenvolvimento de Aplicações Web com Linguagens HTML, CSS, JS e Frameworks. Participou do projeto Reasoning And Programming no ano de 2017.
 
 **Quais as principais funcionalidades:**
   Que serão desenvolvidas:
