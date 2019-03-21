@@ -46,7 +46,8 @@
         * O usuário poderá ficar por dentro de atualizações e postagens efetuadas em redes sociais da academia.
         
     - Academias parceiras
-        *
+        *As academias terão uma página de destaque, onde todas as academias associadas ao ReachableGym serão listadas e cada academia terá uma página própria no site.
+        
     - compra/pagamento
         * A compra de planos e/ou produtos feita através do site ReachableGym, terá seu pagamento efetuado a partir da geração de boletos bancários e cartões de crédito.
         
@@ -54,10 +55,10 @@
         * Todo o sistema de compra e utilização dos produtos que a página oferece, será realizado a partir de um cadastro do usuário. Garantindo a segurança, validade e confiabilidade, de quem utiliza e disponibiliza os produtos.
         
     - Validação
-        * A validação dos dados inseridos, garantem a eficiência do serviço. Facilitando a verificação de compras verídicas e a segurança do serviço disponível.
+        * A validação dos dados inseridos, garantem a eficiência do serviço. Facilitando a verificação de compras verídicas e a segurança do serviço disponível.Principalmente no contato entre a academia e o usuário.
         
     - ficha técnica com rotina de treinamento.
-        * O usuário dispõe de uma ficha técnica, onde terá uma rotina de treinamento específico, baseada no objetivo que o praticante busca alcançar na aula de academia.
+        * O usuário dispõe de uma ficha técnica, onde terá uma rotina de treinamento específico e seus dados atuais, podendo visulizar um gráfico com seus dados. Isso baseado no objetivo que o praticante busca alcançar na aula de academia.
     
   
   Que estão desenvolvidas:
