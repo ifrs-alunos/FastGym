@@ -1,4 +1,4 @@
-# FastGym 
+# Gym Ez4u
 
 # Título do projeto: ReachableGym
 
