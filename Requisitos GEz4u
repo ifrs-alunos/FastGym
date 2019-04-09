@@ -1,3 +1,60 @@
-Requisitos GEz4u
+REQUISITOS GEz4u
 
-000(número do requisito)-0(nível do requisito: 1- Superior/alta prioridade; 2- Médio/média prioridade; 3- baixa prioridade)/0(Pré-requisitos? 1-sim 0-não)
+000(número do requisito)-0(nível do requisito: 1- Superior/alta prioridade;
+2- Médio/média prioridade; 3- baixa prioridade)/0(Pré-requisitos? 1-sim 0-não)
+
+
+REQUISITOS FUNCIONAIS
+
+[RF0001-1/1] O sistema possibilitará o cadastro do cliente, exigindo uma conta E-mail e senha, para Login.
+O cadastro de clientes terá a funcionalidade de manter a empresa atualizada em relação aos mesmos, possibilitando que seus dados sejam 
+levantados rapidamente caso a GymEz4u necessite de uma comunicação com o cliente, seja por telefone ou e-mail. Espera-se que o site tenha a 
+capacidade de cadastrar dados como RG, CPF, nome, etc. O site atenderá as necessidades de pessoas físicas. Com estes dados a GymEz4u pretende 
+direcionar o pedido de encomendas feitas pelos clientes para as academias, via email.
+
+[RF0002-1/0] O sistema deve possibilitar a realização de reservas de planos de academia, para os clientes.
+
+[RF0003-1/0] O sistema deve possuir um Terminal de Vendas, onde o cliente poderá escolher dentre as diversas formas de pagamento como vários 
+cartões de crédito, boleto, etc.
+
+[RF0004-2/0] O sistema deve disponibilizar endereço, contato e demais informações relevantes das academias, após contratação do plano.
+
+[RF0005-3/0] O sistema deverá disponiblizar suporte online.
+O suporte online deve permitir que o usuário possa retirar dúvidas e resolver problemas que possam ocorrer durante o envio dos produtos ou 
+durante o pagamanto. O suporte deve fornecer email e telefone para contato.
+
+[RF0006-1/1] A Realização do Login será a porta de entrada do cliente para os recursos do site, tais como consulta de seus dados 
+cadastrais, realização de compras entre outros.
+
+[RF0007-3/0] O sistema deve permitir que o cliente consulte e altere seus dados pessoais do cadastro, para atualização de informações caso
+necessário um comunicação com o cliente, citada no [RF0001-1/1].
+
+[RF0008-X/X]
+
+[RF0009-X/X] 
+
+[RF0010-X/X]
+
+
+REQUISITOS NÃO FUNCIONAIS
+
+[RNF0001-1/1] O sistema deve ter um banco de dados MySql.
+
+[RNF0002-2/0] O sistema deve ter uma boa usabilidade.
+
+[RNF0003-2/0] O sistema deve ter uma interface gráfica intuitiva e responsiva, adaptando-se a diversos dispositivos.
+
+[RNF0004-1/1] O sistema poderá ser acessado através de computadores, smartphones, tablets, notebooks, dentre outros que possuam suporte a
+browser (navegador).
+
+[RNF0005-X/X] 
+
+[RNF0006-X/X]
+
+[RNF0007-X/X]
+
+[RNF0008-X/X]
+
+[RNF0009-X/X]
+
+[RNF0010-X/X]
