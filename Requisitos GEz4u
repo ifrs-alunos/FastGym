@@ -50,6 +50,8 @@ cartões de crédito, boleto, etc.
       - Local disponível para retirada do produto
 
 [RF0004-2/0] O sistema deve disponibilizar endereço, contato e demais informações relevantes das academias, após contratação do plano.
+   [Saída]
+      -endereço contato e demais informações relevantes das academias.
 
 [RF0005-3/0] O sistema deverá disponiblizar suporte online.
 O suporte online deve permitir que o usuário possa retirar dúvidas e resolver problemas que possam ocorrer durante o envio dos produtos ou 
