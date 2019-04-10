@@ -11,7 +11,7 @@ O cadastro de clientes terá a funcionalidade de manter a empresa atualizada em 
 levantados rapidamente caso a GymEz4u necessite de uma comunicação com o cliente, seja por telefone ou e-mail. Espera-se que o site tenha a 
 capacidade de cadastrar dados como RG, CPF, nome, etc. O site atenderá as necessidades de pessoas físicas. Com estes dados a GymEz4u pretende 
 direcionar o pedido de encomendas feitas pelos clientes para as academias, via email.
-  [Entrada CRUD]
+  [Entrada]
       - Nome
       - Email
       - RG
@@ -21,8 +21,10 @@ direcionar o pedido de encomendas feitas pelos clientes para as academias, via e
       - Data de Nascimento
       - Número de Celular
       - Sexo
+   [comportamento]
+      - Registrar dados no banco de dados
    [Saída]
-      - Confirmação de cadastramento via email ou SMS
+      - Confirmação de cadastramento via email
 
 [RF0002-1/0] O sistema deve possibilitar a realização de reservas de planos de academia, para os clientes.
   [Entrada]
