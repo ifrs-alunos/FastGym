@@ -29,11 +29,13 @@ cadastrais, realização de compras entre outros.
 [RF0007-3/0] O sistema deve permitir que o cliente consulte e altere seus dados pessoais do cadastro, para atualização de informações caso
 necessário um comunicação com o cliente, citada no [RF0001-1/1].
 
-[RF0008-X/X]
+[RF0008-2/0] O site deverá conter anúncios de produtos de academia que estejam disponíveis para venda na própria academia, possibilitando
+a compra de tais pelo site da GymEz4u que fará o intermédio entre cliente e academia.
 
-[RF0009-X/X] 
+[RF0009-2/0] O site deverá disponibilizar logo após compra de algum plano de academia, meios de transporte para o cliente, sejam 
+através de um link para o Aplicativo Uber ou contatos de Táxi, facilitando e otimizando esse processo em prol do cliente.  
 
-[RF0010-X/X]
+[RF0010-X/X] 
 
 
 REQUISITOS NÃO FUNCIONAIS
