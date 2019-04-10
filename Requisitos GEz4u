@@ -33,9 +33,7 @@ necessário um comunicação com o cliente, citada no [RF0001-1/1].
 a compra de tais pelo site da GymEz4u que fará o intermédio entre cliente e academia.
 
 [RF0009-2/0] O site deverá disponibilizar logo após compra de algum plano de academia, meios de transporte para o cliente, sejam 
-através de um link para o Aplicativo Uber ou contatos de Táxi, facilitando e otimizando esse processo em prol do cliente.  
-
-[RF0010-X/X] 
+através de um link para o Aplicativo Uber ou contatos de Táxi, facilitando e otimizando esse processo em prol do cliente.   
 
 
 REQUISITOS NÃO FUNCIONAIS
@@ -48,15 +46,3 @@ REQUISITOS NÃO FUNCIONAIS
 
 [RNF0004-1/1] O sistema poderá ser acessado através de computadores, smartphones, tablets, notebooks, dentre outros que possuam suporte a
 browser (navegador).
-
-[RNF0005-X/X] 
-
-[RNF0006-X/X]
-
-[RNF0007-X/X]
-
-[RNF0008-X/X]
-
-[RNF0009-X/X]
-
-[RNF0010-X/X]
