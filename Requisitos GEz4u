@@ -55,7 +55,13 @@ cartões de crédito, boleto, etc.
 
 [RF0005-3/0] O sistema deverá disponiblizar suporte online.
 O suporte online deve permitir que o usuário possa retirar dúvidas e resolver problemas que possam ocorrer durante o envio dos produtos ou 
-durante o pagamanto. O suporte deve fornecer email e telefone para contato.
+durante o pagamanto. O suporte em contato através de email e/ou telefone para contato.
+    [Entrada]
+        - Mensagem de suporte
+    [Saída]
+        - Mensagem "Obrigado pelo pedido, estamos entrando em contato"
+        - enviar uma primeira mensagem de suporte via email
+        
 
 [RF0006-1/1] A Realização do Login será a porta de entrada do cliente para os recursos do site, tais como consulta de seus dados 
 cadastrais, realização de compras entre outros.
