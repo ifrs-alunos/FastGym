@@ -42,8 +42,12 @@ direcionar o pedido de encomendas feitas pelos clientes para as academias, via e
 cartões de crédito, boleto, etc.
    [Entrada]
       - Seleção do produto
+      - CRUD
       - Seleção da forma de pagamento
       - Dados do cartão de crédito (caso selecionado)
+   [Saída]
+      - Confirmação de compra via email
+      - Local disponível para retirada do produto
 
 [RF0004-2/0] O sistema deve disponibilizar endereço, contato e demais informações relevantes das academias, após contratação do plano.
 
