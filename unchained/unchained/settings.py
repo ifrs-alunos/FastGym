@@ -39,7 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'core',
     'exemplo',
-    'clientes',
+    'clients',
+    'cadastro_usuario',
+    'cadastro_postagens',
+    'home',
+    'login_usuario',
 ]
 
 MIDDLEWARE = [
@@ -57,7 +61,7 @@ ROOT_URLCONF = 'unchained.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -80,8 +84,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'batata',
-        'USER': 'aluno',
-        'PASSWORD': 'ifrsvacaria',
+        'USER': 'eduardo',
+        'PASSWORD': '3382736',
         'HOST': 'localhost',
         'PORT': '3306'
     }

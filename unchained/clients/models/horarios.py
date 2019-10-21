@@ -1,9 +1,9 @@
 from django.db import models
-from academia import Academia
-from plano import Plano
+from .academia import Academia
+from .plano import Plano
 
 class Horarios(models.Model):
-	nome = models.CharField(max_lenght="25")
+	nome = models.CharField(max_length=25)
 	segunda_e = models.TimeField()
 	segunda_s = models.TimeField()
 	terca_e = models.TimeField()
