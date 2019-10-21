@@ -40,10 +40,6 @@ INSTALLED_APPS = [
     'core',
     'exemplo',
     'clients',
-    'cadastro_usuario',
-    'cadastro_postagens',
-    'home',
-    'login_usuario',
 ]
 
 MIDDLEWARE = [
@@ -84,8 +80,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'batata',
-        'USER': 'eduardo',
-        'PASSWORD': '3382736',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '3306'
     }
