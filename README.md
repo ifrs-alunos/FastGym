@@ -59,5 +59,7 @@
   Que estão desenvolvidas:
   
 **Como instalar e configurar corretamente a aplicação:**
+    
+    + Lembre-se de configurar seu database no arquivo personal_settings.py (no app unchained), um exemplo pode ser encontrado no personal_setting_example.py (no app unchained)
 
 **Bug conhecidos e como resolvelos:**
