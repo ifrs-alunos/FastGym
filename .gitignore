@@ -199,3 +199,5 @@ bh_unicode_properties.cache
 GitHub.sublime-settings
 
 # End of https://www.gitignore.io/api/python,django,sublimetext
+# personal_settings
+unchained/unchained/personal_settings.py
