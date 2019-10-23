@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'unchained.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'batata',
-        'USER': 'eduardo',
-        'PASSWORD': '3382736',
+        'NAME': 'gymez4u',
+        'USER': 'aluno',
+        'PASSWORD': 'ifrsvacaria',
         'HOST': 'localhost',
         'PORT': '3306'
     }
