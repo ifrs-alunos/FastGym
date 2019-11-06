@@ -1,8 +1,9 @@
 {% extends "core/base.html" %}
 {% block content %}
-<<<<<<< HEAD
+{% load static %}
+
 <section class="home-slider js-fullheight owl-carousel ftco-degree-bottom">
-    <div class="slider-item js-fullheight" style="background-image: url(images/bg_1.jpg);">
+    <div class="slider-item js-fullheight" style="background-image: url({% static 'clients/images/bg_1.jpg' %});">
       <div class="overlay"></div>
       <div class="container">
         <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
@@ -12,19 +13,12 @@
             <h2 class="subheading">Be One Of Us</h2>
           </div>
 
-=======
-      <!-- Principal jumbotron, para a principal mensagem de marketing ou call to action -->
-      <div class="jumbotron">
-        <div class="container">
-          <h1 class="display-3">GymE4u</h1>
-          <p>ACADEMIAS</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Saiba mais &raquo;</a></p>
->>>>>>> 262c8a59a2f2507efe31bb5f64376ede8fe73115
+
         </div>
       </div>
     </div>
 
-    <div class="slider-item js-fullheight" style="background-image: url(images/bg_2.jpg);">
+    <div class="slider-item js-fullheight" style="background-image: url({% static 'clients/images/bg_2.jpg' %});">
       <div class="overlay"></div>
       <div class="container">
         <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
@@ -94,7 +88,7 @@
     </div>
   </section>
 
-  <section class="ftco-counter ftco-bg-dark img" id="section-counter" style="background-image: url(images/bg_2.jpg);" data-stellar-background-ratio="0.5">
+  <section class="ftco-counter ftco-bg-dark img" id="section-counter" style="background-image: url({% static 'clients/images/bg_2.jpg' %});" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
       <div class="row justify-content-center">
@@ -139,7 +133,7 @@
   </section>
 
   <section class="ftco-about d-md-flex bg-light">
-    <div class="one-half img" style="background-image: url(images/about-2.jpg);">
+    <div class="one-half img" style="background-image: url({% static 'clients/images/about-2.jpg' %});">
       <a href="https://vimeo.com/45830194" class="icon popup-vimeo d-flex justify-content-center align-items-center">
         <span class="icon-play"></a>
       </a>
@@ -198,7 +192,7 @@
         </div>
         <div class="col-lg-3 d-flex">
           <div class="coach align-items-stretch">
-            <div class="img" style="background-image: url(images/trainer-3.jpg);"></div>
+            <div class="img" style="background-image: url({% static 'clients/images/trainer-3.jpg' %});"></div>
             <div class="text bg-white p-4 ftco-animate">
               <span class="subheading">Owner / Head Coach</span>
               <h3><a href="#">George Hump</a></h3>
@@ -214,7 +208,7 @@
         </div>
         <div class="col-lg-3 d-flex">
           <div class="coach d-md-flex flex-column-reverse align-items-stretch">
-            <div class="img" style="background-image: url(images/trainer-4.jpg);"></div>
+            <div class="img" style="background-image: url({% static 'clients/images/trainer-4.jpg' %});"></div>
             <div class="text bg-white p-4 ftco-animate">
               <span class="subheading">Owner / Head Coach</span>
               <h3><a href="#">Victor Hump</a></h3>
@@ -243,7 +237,7 @@
       <div class="row">
         <div class="col-md-6 col-lg-3">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/program-1.jpg);">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url({% static 'clients/images/program-1.jpg' %});">
               <span>Learn More</span>
             </a>
             <div class="text mt-3">
@@ -254,7 +248,7 @@
         </div>
         <div class="col-md-6 col-lg-3">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/program-2.jpg);">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url({% static 'clients/images/program-2.jpg' %});">
               <span>Learn More</span>
             </a>
             <div class="text mt-3">
@@ -265,7 +259,7 @@
         </div>
         <div class="col-md-6 col-lg-3">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/program-3.jpg);">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url({% static 'clients/images/program-3.jpg' %});">
               <span>Learn More</span>
             </a>
             <div class="text mt-3">
@@ -276,7 +270,7 @@
         </div>
         <div class="col-md-6 col-lg-3">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/program-4.jpg);">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url({% static 'clients/images/program-4.jpg' %});">
               <span>Learn More</span>
             </a>
             <div class="text mt-3">
@@ -384,7 +378,7 @@
                   <p class="mb-4 pb-1 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 
                   <div class="d-flex align-items-center">
-                    <div class="user-img" style="background-image: url(images/person_1.jpg)">
+                    <div class="user-img" style="background-image: url({% static 'clients/images/person_1.jpg' %})">
                       <span class="quote d-flex align-items-center justify-content-center">
                         <i class="icon-quote-left"></i>
                       </span>
@@ -403,7 +397,7 @@
                   <p class="mb-4 pb-1 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 
                   <div class="d-flex align-items-center">
-                    <div class="user-img" style="background-image: url(images/person_2.jpg)">
+                    <div class="user-img" style="background-image: url({% static 'clients/images/person_2.jpg' %})">
                       <span class="quote d-flex align-items-center justify-content-center">
                         <i class="icon-quote-left"></i>
                       </span>
@@ -422,7 +416,7 @@
                   <p class="mb-4 pb-1 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 
                   <div class="d-flex align-items-center">
-                    <div class="user-img" style="background-image: url(images/person_3.jpg)">
+                    <div class="user-img" style="background-image: url({% static 'clients/images/person_3.jpg' %})">
                       <span class="quote d-flex align-items-center justify-content-center">
                         <i class="icon-quote-left"></i>
                       </span>
@@ -441,7 +435,7 @@
                   <p class="mb-4 pb-1 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 
                   <div class="d-flex align-items-center">
-                    <div class="user-img" style="background-image: url(images/person_1.jpg)">
+                    <div class="user-img" style="background-image: url({% static 'clients/images/person_1.jpg' %})">
                       <span class="quote d-flex align-items-center justify-content-center">
                         <i class="icon-quote-left"></i>
                       </span>
@@ -460,7 +454,7 @@
                   <p class="mb-4 pb-1 pl-4 line">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 
                   <div class="d-flex align-items-center">
-                    <div class="user-img" style="background-image: url(images/person_2.jpg)">
+                    <div class="user-img" style="background-image: url({% static 'clients/images/person_2.jpg' %})">
                       <span class="quote d-flex align-items-center justify-content-center">
                         <i class="icon-quote-left"></i>
                       </span>
@@ -490,7 +484,7 @@
       <div class="row d-flex">
         <div class="col-md-4 d-flex ftco-animate">
           <div class="blog-entry justify-content-end">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+            <a href="blog-single.html" class="block-20" style="background-image: url({% static 'clients/images/image_1.jpg' %});">
             </a>
             <div class="text p-4 float-right d-block">
               <div class="meta">
@@ -505,7 +499,7 @@
         </div>
         <div class="col-md-4 d-flex ftco-animate">
           <div class="blog-entry justify-content-end">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+            <a href="blog-single.html" class="block-20" style="background-image: url({% static 'clients/images/image_2.jpg' %});">
             </a>
             <div class="text p-4 float-right d-block">
               <div class="meta">
@@ -520,7 +514,7 @@
         </div>
         <div class="col-md-4 d-flex ftco-animate">
           <div class="blog-entry">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+            <a href="blog-single.html" class="block-20" style="background-image: url({% static 'clients/images/image_3.jpg' %});">
             </a>
             <div class="text p-4 float-right d-block">
               <div class="meta">
@@ -541,7 +535,7 @@
     <div class="overlay"></div>
     <div class="container-wrap">
       <div class="row no-gutters d-md-flex align-items-center">
-        <div class="col-md-6 d-flex align-self-stretch img" style="background-image: url(images/about-3.jpg);">
+        <div class="col-md-6 d-flex align-self-stretch img" style="background-image: url({% static 'clients/images/about-3.jpg' %});">
         </div>
         <div class="col-md-6 appointment ftco-animate">
           <h3 class="mb-3">Book a Appointment</h3>
@@ -599,49 +593,49 @@
           </div>
         </div>
         <div class="col-md-3 ftco-animate">
-          <a href="images/gallery-2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-2.jpg);">
+          <a href="{% static 'clients/images/gallery-2.jpg' %}" class="gallery image-popup img d-flex align-items-center" style="background-image: url({% static 'clients/images/gallery-2.jpg' %});">
             <div class="icon mb-4 d-flex align-items-center justify-content-center">
               <span class="icon-instagram"></span>
             </div>
           </a>
         </div>
         <div class="col-md-3 ftco-animate">
-          <a href="images/gallery-3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-3.jpg);">
+          <a href="images/gallery-3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url({% static 'clients/images/gallery-3.jpg' %});">
             <div class="icon mb-4 d-flex align-items-center justify-content-center">
               <span class="icon-instagram"></span>
             </div>
           </a>
         </div>
         <div class="col-md-3 ftco-animate">
-          <a href="images/gallery-4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-4.jpg);">
+          <a href="images/gallery-4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url({% static 'clients/images/gallery-4.jpg' %});">
             <div class="icon mb-4 d-flex align-items-center justify-content-center">
               <span class="icon-instagram"></span>
             </div>
           </a>
         </div>
         <div class="col-md-3 ftco-animate">
-          <a href="images/gallery-1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-5.jpg);">
+          <a href="images/gallery-1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url({% static 'clients/images/gallery-5.jpg' %});">
             <div class="icon mb-4 d-flex align-items-center justify-content-center">
               <span class="icon-instagram"></span>
             </div>
           </a>
         </div>
         <div class="col-md-3 ftco-animate">
-          <a href="images/gallery-2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-6.jpg);">
+          <a href="images/gallery-2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url({% static 'clients/images/gallery-6.jpg' %});">
             <div class="icon mb-4 d-flex align-items-center justify-content-center">
               <span class="icon-instagram"></span>
             </div>
           </a>
         </div>
         <div class="col-md-3 ftco-animate">
-          <a href="images/gallery-3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-7.jpg);">
+          <a href="images/gallery-3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url({% static 'clients/images/gallery-7.jpg' %});">
             <div class="icon mb-4 d-flex align-items-center justify-content-center">
               <span class="icon-instagram"></span>
             </div>
           </a>
         </div>
         <div class="col-md-3 ftco-animate">
-          <a href="images/gallery-4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-8.jpg);">
+          <a href="images/gallery-4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url({% static 'clients/images/gallery-8.jpg' %});">
             <div class="icon mb-4 d-flex align-items-center justify-content-center">
               <span class="icon-instagram"></span>
             </div>
