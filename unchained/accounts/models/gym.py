@@ -5,4 +5,4 @@ class Gym(models.Model):
 	cnpj = models.CharField(max_length=40)
 	telefone = models.CharField(max_length=16)
 	endereco = models.CharField(max_length=80)
-	associados = models.IntegerField()
+	associados = models.IntegerField(null=True, blank=True)
