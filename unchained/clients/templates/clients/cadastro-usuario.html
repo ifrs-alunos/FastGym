@@ -50,26 +50,26 @@ body {
 .form-signin .form-control:focus {
   z-index: 2;
 }
-.form-signin input[type="email"] {
+.form-signin input {
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.form-signin input[type="password"] {
+.form-signin #inputRPassword{
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
 
     </style>
-    <form class="form-signin" method="post" action="{% url 'clients:login' %}">
-    {% csrf_token %}
-  <img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-  <h1 class="h3 mb-3 font-weight-normal text-center">Log In</h1>
-    {{ form }}
-  <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
-  <p class="mt-5 mb-3 text-muted text-center">© GymEz4U 2019</p>
-</form>
+    <form class="form-signin" method="post" action="{% url 'clients:cadastro' %}">
+        {% csrf_token %}
+        <img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal text-center">Cadastre-se</h1>
+        {{ form_user }}
+        {{ form_dados }}
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Criar conta</button>
+    </form>
 
 {% endblock %}
 {% block footer %}

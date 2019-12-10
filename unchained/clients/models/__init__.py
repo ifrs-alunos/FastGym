@@ -1,7 +1,8 @@
+from .usuario import Usuario
 from .cartao import Cartao
-from .user import User
-from .transporte import Transporte
 from .academia import Academia
+from .transporte import Transporte
+from .plano import Plano
 from .horarios import Horarios
 from .produto import Produto
-from .plano import Plano
+

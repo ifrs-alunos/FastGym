@@ -1,11 +1,10 @@
 from django.db import models
-from .academia import Academia
-from .user import User
+from . import  Academia, Usuario
 
 class Produto(models.Model):
 	nome = models.CharField(max_length=30)
 	valor= models.FloatField()
 	quantidade = models.IntegerField()
 	descricao = models.TextField()
-	academia = models.ForeignKey('Academia',on_delete=models.CASCADE , related_name="produtos")
-	compradores = models.ForeignKey('User',on_delete=models.CASCADE , related_name="produtos")
+	academia = models.ForeignKey(Academia,on_delete=models.CASCADE , related_name="produtos")
+	compradores = models.ForeignKey(Usuario,on_delete=models.CASCADE , related_name="produtos")

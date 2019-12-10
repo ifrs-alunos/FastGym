@@ -19,6 +19,8 @@ from core.views import index
 from clients.views import home
 from . import views
 
+app_name = 'unchained'
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home, name='home'),

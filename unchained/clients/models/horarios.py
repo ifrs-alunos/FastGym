@@ -1,6 +1,5 @@
 from django.db import models
-from .academia import Academia
-from .plano import Plano
+from . import Academia, Plano
 
 class Horarios(models.Model):
 	nome = models.CharField(max_length=25)
@@ -18,8 +17,8 @@ class Horarios(models.Model):
 	sabado_s = models.TimeField()
 	domingo_e = models.TimeField()
 	domingo_s = models.TimeField()
-	academia = models.ForeignKey('Academia', related_name="horarios", on_delete=models.CASCADE)
-	planos = models.ForeignKey('Plano', related_name="horarios", on_delete=models.CASCADE)
+	academia = models.ForeignKey(Academia, related_name="horarios", on_delete=models.CASCADE)
+	planos = models.ForeignKey(Plano, related_name="horarios", on_delete=models.CASCADE)
 
 	def __str__(self):
 		retorno = {'segunda':[segunda_e,segunda_s], 'terca':[terca_e,terca_s], 'quarta':[quarta_e,quarta_s], 'quinta':[quinta_e,quinta_s], 'sexta':[sexta_e,sexta_s], 'sabado':[sabado_e,sabado_s], 'domingo':[domingo_e,domingo_s], }
