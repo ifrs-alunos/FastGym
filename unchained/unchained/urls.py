@@ -24,6 +24,7 @@ app_name = 'unchained'
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home, name='home'),
-    path('users/', include('accounts.urls')),
+    path('accounts/', include('accounts.urls')),
+    path('portfolio/', include('portifolio.urls'))
 
 ]
