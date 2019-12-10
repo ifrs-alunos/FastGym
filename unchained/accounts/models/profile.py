@@ -1,5 +1,6 @@
 from django.db import models
 from .gym import Gym
+from ..listas import lista_sexo
 
 class Profile(models.Model):
 	owner = models.OneToOneField('auth.user', on_delete=models.CASCADE)
@@ -9,7 +10,7 @@ class Profile(models.Model):
 	nascimento = models.DateField()
 	endereco = models.CharField(max_length=80)
 	academias = models.ManyToManyField(Gym, related_name="profiles", blank=True)
-	sexo = models.CharField(max_length=9, choices=[('masculino','Masculino'),('feminino','Feuinino')])
+	sexo = models.CharField(max_length=9, choices=[lista_sexo])
 
 
 	
