@@ -1,0 +1,20 @@
+{% extends "core/base.html" %}
+{% block content %}<br><br><br><br><br><br>
+    <form method="post" action="{% url 'portfolio:gym_search' %}">
+    {% csrf_token %}
+        {{ form }}
+        <button type="submit">Procurar</button>
+    </form>
+    {% if not init %}
+        {% if no_results %}
+            <h2>Nenhum resultado oi encoontrado para sua pesquisa</h2>
+        {% else %}
+            <div>
+                {% for academia in academias %}
+                    <div>{{ academia.owner.first_name }}</div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    {% endif %}
+    <br><br><br><br><br><br>
+{% endblock %}
