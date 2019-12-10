@@ -12,3 +12,7 @@ def gym_view(request, gym_id):
         'gym_associados': str(gym.associados)
     }
     return render(request, "portfolio/gym.html", context)
+
+def gym_seach(request):
+    if request.method == "POST":
+        pass

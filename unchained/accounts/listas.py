@@ -1,4 +1,4 @@
-lista_sexo = [('masculino','Masculino'),('feminino','Feuinino')]
+lista_sexo = [('masculino','Masculino'),('feminino','Feminino')]
 
 lista_estados = [
     ("Acre","AC"),

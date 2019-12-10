@@ -10,7 +10,7 @@ class Profile(models.Model):
 	nascimento = models.DateField()
 	endereco = models.CharField(max_length=80)
 	academias = models.ManyToManyField(Gym, related_name="profiles", blank=True)
-	sexo = models.CharField(max_length=9, choices=[lista_sexo])
+	sexo = models.CharField(max_length=9, choices=lista_sexo)
 
 
 	
