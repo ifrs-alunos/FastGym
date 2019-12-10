@@ -16,12 +16,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from core.views import index
-from clients.views import home
+from accounts.views import home
 from . import views
+
+app_name = 'unchained'
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home, name='home'),
-    path('users/', include('clients.urls')),
+    path('accounts/', include('accounts.urls')),
+    path('portfolio/', include('portifolio.urls'))
 
 ]

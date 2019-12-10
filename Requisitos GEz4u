@@ -28,7 +28,7 @@ direcionar o pedido de encomendas feitas pelos clientes para as academias, via e
 
 [RF0002-1/0] O sistema deve possibilitar a realização de reservas de planos de academia, para os clientes.
   [Entrada]
-      - Seleção de Academia
+      - Seleção de Gym
       - Seleção do plano
       - Horário requisitado
       - Seleção da forma de pagamento
