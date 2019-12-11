@@ -1,10 +1,29 @@
 {% extends "core/base.html" %}
 {% block content %}
-<br><br><br><br>
-    <h2>{{ gym_name }}</h2><br><br>
+<style>
+	#padd{
+		padding-top: 10%;
+		padding-bottom: 10%;
+		font-size: 20pt;
+	}
+	.container_colorir{
+    	background-color: rgb(204, 204, 204);
+    	width: 100%;
+    	height: 55px;
+    }
+
+</style>
+<div class="container_colorir">
+	
+</div>
+
+<div class="container" id="padd">
+	<h1 style="text-transform:capitalize">{{ gym_name }}</h1><br><br>
     <b>E-mail: </b>{{ gym_email }}<br>
     <b>Telefone: </b>{{ gym_telefone }}<br>
     <b>CNPJ: </b>{{ gym_cnpj }}<br>
     <b>Endereço: </b>{{ gym_endereco }}<br>
     <b>Número de cadastrados: </b>{{ gym_associados }}<br>
+</div>
+
 {% endblock %}

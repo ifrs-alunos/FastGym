@@ -17,7 +17,7 @@ class PersonalProfileRegisterForm(forms.ModelForm):
             'telefone': 'Telefone',
             'rg': 'RG',
             'cpf': 'CPF',
-            'nascimento':'Data de Nascimento',
+            'nascimento':'Data de Nascimento (ano-mes-dia)',
             'endereco':'Endereço',
             'sexo':'Sexo',
         }

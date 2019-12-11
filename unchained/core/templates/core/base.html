@@ -4,7 +4,7 @@
 <html lang="pt-br">
   {% block head %}
   <head>
-    <title>Muscle - Free Bootstrap 4 Template by Colorlib</title>
+    <title>GymEz4u - Academias</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -45,14 +45,17 @@
         </button>
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
-
-            <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="program.html" class="nav-link">Program</a></li>
-            <li class="nav-item"><a href="coaches.html" class="nav-link">Coaches</a></li>
-            <li class="nav-item"><a href="schedule.html" class="nav-link">Schedule</a></li>
-            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            {% if user.is_authenticated %}
+            <li class="nav-item active"><a href="{% url 'home' %}" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="{% url 'portfolio:gym_search' %}" class="nav-link">Pesquisa</a></li>
+            <li class="nav-item"><a href="{% url 'accounts:logout' %}" class="nav-link">Logout</a></li>
+            {% else %}
+            <li class="nav-item active"><a href="{% url 'home' %}" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="{% url 'accounts:register_user' %}" class="nav-link">Cadastro</a></li>
+            <li class="nav-item"><a href="{% url 'accounts:register_gym' %}" class="nav-link">Cadastro Academia</a></li>
+            <li class="nav-item"><a href="{% url 'portfolio:gym_search' %}" class="nav-link">Pesquisa</a></li>
+            <li class="nav-item"><a href="{% url 'accounts:login' %}" class="nav-link">Login</a></li>
+            {% endif %}
           </ul>
         </div>
       </div>
@@ -133,7 +136,7 @@
           <div class="col-md-12 text-center">
 
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Programmers: Eduardo Chedid; Willian Fernandes</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </div>
         </div>

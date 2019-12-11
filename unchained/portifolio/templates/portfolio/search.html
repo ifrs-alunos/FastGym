@@ -5,19 +5,34 @@
         padding-top: 30%;
         max-width: 50%;
     }
-    .container{
+    .container_colorir{
+        background-color: rgb(204, 204, 204);
+        width: 100%;
+        height: 55px;
     }
     .botao{
         margin-top: 20px;
         font-size: 15pt;
-        margin-bottom: 30%;
+        margin-bottom: 10%;
     }
     .resultado{
         margin: 50px;
         text-align: center;
         font-style: verdana;
     }
+    .container_result{
+        padding-top: -100%;
+        padding-bottom: 20pc;
+    }
+    .result{
+        text-align: center;
+        padding-top: -100%;
+        font-size: 20pt;
+    }
 </style>
+    <div class="container_colorir">
+        
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -36,9 +51,9 @@
             </div>
             
         {% else %}
-            <div>
+            <div class="container_result">
                 {% for academia in academias %}
-                    <div>{{ academia.owner.first_name }}</div>
+                    <div class="result"><a href="{% url 'portfolio:gym_view' academia.id %}">{{ academia.owner.first_name }}</a></div>
                 {% endfor %}
             </div>
         {% endif %}
