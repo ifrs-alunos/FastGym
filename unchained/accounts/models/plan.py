@@ -1,5 +1,5 @@
 from django.db import models
-from accounts.models import Gym, Profile
+from . import Gym, Profile
 
 
 class Plan(models.Model):

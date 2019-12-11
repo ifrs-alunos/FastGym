@@ -1,6 +1,5 @@
 from django.db import models
-from . import Gym
-from portifolio.models import Plan
+from . import Gym, Plan
 
 class Schedule(models.Model):
 	nome = models.CharField(max_length=25)

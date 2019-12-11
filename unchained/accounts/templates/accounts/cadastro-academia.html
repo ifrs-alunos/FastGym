@@ -33,7 +33,7 @@ body {
 
 .form-signin {
   width: 100%;
-  max-width: 350px;
+  max-width: 330px;
   padding: 15px;
   margin: auto;
 }
@@ -62,44 +62,27 @@ body {
 }
 
     </style>
-<form class="form-signin" method="post" action="http://localhost:8000/users/cadastro/">
+    <form class="form-signin" method="post" actio="http://localhost:8000/users/cadastro/">
       {% csrf_token %}
-  <div class="container">
-    <div class="row">
-      
-        <img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-      
-        <h1 class="h3 mb-3 font-weight-normal text-center">Cadastre-se</h1>
-      <div class="col-sm">
-        <label for="inputName" class="sr-only">Nome</label>
-        <input id="inputName" class="form-control" placeholder="Seu nome" required="" autofocus="" type="text">
-      </div>
-      <div class="col-sm">
-        <label for="inputEmail" class="sr-only">Endereço de email</label>
-        <input id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" type="email">
-      </div>
-      <div class="col-sm">
-        <label for="inputPassword" class="sr-only">Senha</label>
-        <input id="inputPassword" class="form-control" placeholder="Digite uma senha" required="" type="password">
-      </div>
-      <div class="col-sm">
-        <label for="inputRPassword" class="sr-only">Repita sua senha</label>
-        <input id="inputRPassword" class="form-control" placeholder="Repita sua senha" required="" type="password">
-      </div>
-    </div>
-  </div> 
-      <div class="checkbox mb-3">
-        <label>
-          <input value="remember-me" type="checkbox"> Eu aceito os <a href="#">Termos de Serviço</a>
-        </label>
-      </div>
-
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Criar conta</button>
-
-      <p class="mt-5 mb-3 text-muted text-center">© 2017-2019</p>
+  <img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+  <h1 class="h3 mb-3 font-weight-normal text-center">Cadastre-se</h1>
+  <label for="inputName" class="sr-only">Nome</label>
+  <input id="inputName" class="form-control" placeholder="Seu nome" required="" autofocus="" type="text">
+  <label for="inputEmail" class="sr-only">Endereço de email</label>
+  <input id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" type="email">
+  <label for="inputPassword" class="sr-only">Senha</label>
+  <input id="inputPassword" class="form-control" placeholder="Digite uma senha" required="" type="password">
+  <label for="inputRPassword" class="sr-only">Repita sua senha</label>
+  <input id="inputRPassword" class="form-control" placeholder="Repita sua senha" required="" type="password">
+  <div class="checkbox mb-3">
+    <label>
+      <input value="remember-me" type="checkbox"> Eu aceito os <a href="#">Termos de Serviço</a>
+    </label>
+  </div>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Criar conta</button>
+  <p class="mt-5 mb-3 text-muted text-center">© 2017-2019</p>
 </form>
 
 {% endblock %}
 {% block footer %}
 {% endblock %}
-

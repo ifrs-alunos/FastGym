@@ -1,7 +1,6 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render
 import accounts.models as accounts_models
-from django.contrib.auth.decorators import login_required
-from .forms import Search, RegisterProductForm
+from .forms import Search
 
 def gym_view(request, gym_id):
     gym = accounts_models.Gym.objects.get(id=gym_id)
@@ -43,26 +42,3 @@ def gym_search(request):
                 context['no_results'] = True
 
     return render(request, "portfolio/search.html", context)
-@login_required
-def register_product(request):
-    try:
-        #Verificando se a conta é de uma academia
-        gym = request.user.gym
-
-        if request.method == "POST":
-            formulario = RegisterProductForm(request.POST)
-            if formulario.is_valid():
-                produto = formulario.save(commit=False)
-                produto.academia = gym
-                produto.save()
-                return redirect('home')
-            else:
-                form = RegisterProductForm(request.POST)
-        else:
-            form = RegisterProductForm()
-        context = {
-            'form': form
-        }
-        return render(request, "portfolio/new_product.html", context)
-    except:
-        return redirect("home")
