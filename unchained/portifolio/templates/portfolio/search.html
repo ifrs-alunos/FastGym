@@ -1,40 +1,13 @@
 {% extends "core/base.html" %}
-{% block content %}
-<style>
-    .formulario{
-        padding-top: 30%;
-        max-width: 50%;
-    }
-    .container{
-    }
-    .botao{
-        margin-top: 20px;
-        font-size: 15pt;
-        margin-bottom: 30%;
-    }
-    .resultado{
-        margin: 50px;
-        text-align: center;
-        font-style: verdana;
-    }
-</style>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <form method="post" action="{% url 'portfolio:gym_search' %}" class="formulario">
-            </div>      
-                {% csrf_token %}
-                    {{ form }}
-                    <button type="button" class="btn btn-primary btn-lg btn-block botao">Procurar</button>
-                </form>
-        </div>
-    </div>
+{% block content %}<br><br><br><br><br><br>
+    <form method="post" action="{% url 'portfolio:gym_search' %}">
+    {% csrf_token %}
+        {{ form }}
+        <button type="submit">Procurar</button>
+    </form>
     {% if not init %}
         {% if no_results %}
-            <div class="resultado">
-                <h2>Nenhum resultado foi encontrado para sua pesquisa</h2>
-            </div>
-            
+            <h2>Nenhum resultado oi encoontrado para sua pesquisa</h2>
         {% else %}
             <div>
                 {% for academia in academias %}
@@ -43,4 +16,5 @@
             </div>
         {% endif %}
     {% endif %}
+    <br><br><br><br><br><br>
 {% endblock %}
