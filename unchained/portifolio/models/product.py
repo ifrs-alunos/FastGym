@@ -1,5 +1,5 @@
 from django.db import models
-from . import  Gym, Profile
+from accounts.models import  Gym, Profile
 
 class Product(models.Model):
 	nome = models.CharField(max_length=30)
