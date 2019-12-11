@@ -66,3 +66,7 @@ def register_gym(request):
 def logout_user(request):
 	logout(request)
 	return redirect("home")
+
+#Teste
+def teste_about(request):
+	return render(request, "accounts/about.html")
