@@ -21,12 +21,11 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <form method="post" action="{% url 'portfolio:gym_search' %}" class="formulario">
-            </div>      
+                <form method="post" action="{% url 'portfolio:register_product' %}" class="formulario">
                 {% csrf_token %}
                     {{ form }}
-                    <button type="button" class="btn btn-primary btn-lg btn-block botao">Procurar</button>
-                </form>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block botao">Adicionar</button>
+                </form>x
         </div>
     </div>
     {% if not init %}
